@@ -40,7 +40,10 @@ export async function POST(req: NextRequest) {
         {
           ok: false,
           error: "VALIDATION_ERROR",
-          issues: parsed.error.issues.map((i: { path: (string | number)[]; message: string }) => ({ path: i.path, message: i.message })),
+          issues: parsed.error.issues.map((i) => ({
+            path: i.path.map((p) => (typeof p === "number" ? p : String(p))) as (string | number)[],
+            message: i.message,
+          })),
         },
         { status: 400 },
       );
