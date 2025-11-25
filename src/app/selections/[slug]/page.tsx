@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 
 import { Background } from "@/components/background";
 import { ReferenceImage } from "@/components/blocks/reference-image";
+import { ColorCodedText } from "@/components/color-coded-text";
 import { getSelection } from "@/data/selections";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -42,9 +43,11 @@ export default async function SelectionDetail({ params }: { params: Promise<{ sl
             <h2 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
               Notes
             </h2>
-            <ul className="list-disc pl-5 text-xs text-muted-foreground space-y-1">
+            <ul className="list-disc pl-5 text-xs space-y-1">
               {sel.notes.map((n, i) => (
-                <li key={i}>{n}</li>
+                <li key={i}>
+                  <ColorCodedText text={n} />
+                </li>
               ))}
             </ul>
           </div>
@@ -52,12 +55,14 @@ export default async function SelectionDetail({ params }: { params: Promise<{ sl
         {sel.tracklist && (
           <div className="mt-12 space-y-3">
             <h2 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">Tracklist (snapshot)</h2>
-            <ol className="space-y-1 text-xs font-mono text-muted-foreground max-w-xl">
+            <ol className="space-y-1 text-xs font-mono max-w-xl">
               {sel.tracklist.map((t, i) => (
-                <li key={i}>{t}</li>
+                <li key={i}>
+                  <ColorCodedText text={t} />
+                </li>
               ))}
             </ol>
-            <p className="text-[10px] text-muted-foreground opacity-60">Color code: red = note, green = rec, blue = link (not styled here).</p>
+            <p className="text-[10px] text-muted-foreground opacity-60">Color code: <span className="text-muted-foreground">gray = note</span>, <span className="text-green-500">green = rec</span>, <span className="text-blue-500">blue = link</span>.</p>
           </div>
         )}
         <div className="mt-16">
