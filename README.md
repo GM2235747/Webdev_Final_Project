@@ -20,7 +20,7 @@ Personal music archive front-end. Cryptic, minimal, anti-algorithm. Built with N
 ### Theme
 - Minimal, archival aesthetic
 - Dark/light mode toggle
-- Color-coded system (red/green/blue) for notes/recs/links (not visually rendered)
+- **Color-coded system**: Gray for notes, green for recommendations (marked "rec."), blue for links
 - Anti-algorithm stance, manual curation emphasis
 
 ## Tech Stack
@@ -41,6 +41,19 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000)
+
+## Deployment
+
+Deployed on **Vercel**: https://webdev-final-project-5iu99f9jn-guillianos-projects-14124596.vercel.app
+
+### Deploy Updates
+```bash
+# Automatic (via GitHub)
+git push  # triggers Vercel rebuild
+
+# Manual (via CLI)
+vercel --prod
+```
 
 ## Project Notes
 
