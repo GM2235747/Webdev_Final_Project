@@ -1,6 +1,6 @@
 import { Background } from "@/components/background";
-import { Hero } from "@/components/blocks/hero";
 import { Features } from "@/components/blocks/features";
+import { Hero } from "@/components/blocks/hero";
 import { Selections } from "@/components/blocks/selections";
 
 export default function Home() {

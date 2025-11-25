@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
+
 import { selections } from "@/data/selections";
+import { cn } from "@/lib/utils";
 
 export function Selections({ className }: { className?: string }) {
   return (

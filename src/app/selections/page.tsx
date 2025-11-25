@@ -1,6 +1,6 @@
 import { Background } from "@/components/background";
-import { Selections } from "@/components/blocks/selections";
 import { ReferenceImage } from "@/components/blocks/reference-image";
+import { Selections } from "@/components/blocks/selections";
 
 export const metadata = {
   title: "Selections · Nanami",

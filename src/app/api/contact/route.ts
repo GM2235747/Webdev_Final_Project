@@ -1,6 +1,6 @@
 import type { NextRequest } from "next/server";
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const { z } = require("zod");
+
+import { z } from "zod";
 
 // Schema defining expected POST body for contact submissions
 const contactSchema = z.object({

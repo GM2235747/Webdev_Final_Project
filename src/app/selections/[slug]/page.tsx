@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
+
 import { Background } from "@/components/background";
-import { getSelection } from "@/data/selections";
 import { ReferenceImage } from "@/components/blocks/reference-image";
+import { getSelection } from "@/data/selections";
 
 interface PageProps {
   params: { slug: string };
