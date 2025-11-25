@@ -4,12 +4,9 @@ import { Background } from "@/components/background";
 import { ReferenceImage } from "@/components/blocks/reference-image";
 import { getSelection } from "@/data/selections";
 
-interface PageProps {
-  params: { slug: string };
-}
-
-export function generateMetadata({ params }: PageProps) {
-  const sel = getSelection(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const sel = getSelection(slug);
   if (!sel) return { title: "Selection · Nanami" };
   return {
     title: `${sel.title} · Nanami`,
@@ -17,8 +14,9 @@ export function generateMetadata({ params }: PageProps) {
   };
 }
 
-export default function SelectionDetail({ params }: PageProps) {
-  const sel = getSelection(params.slug);
+export default async function SelectionDetail({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const sel = getSelection(slug);
   if (!sel) return notFound();
   return (
     <Background className="via-muted to-muted/80">
