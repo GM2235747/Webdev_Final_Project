@@ -33,7 +33,7 @@ export const selections: SelectionEntry[] = [
   {
     slug: "green-no-title",
     title: "(republished) the green one with no title",
-    cover: "/og-image.jpg",
+    cover: "/kyora-1.jpg",
     summary: "70s psychedelic folk, kayokyoku, new wave. 密航 wins.",
     notes: [
       "Selection liked despite few comments.",
@@ -70,7 +70,7 @@ export const selections: SelectionEntry[] = [
   {
     slug: "nanami-nana-mai",
     title: "nanami nana mai (悪刀)",
-    cover: "/og-image.jpg",
+    cover: "/kyora-2.jpg",
     summary: "Rearrangement reference; fragment in document list.",
     notes: ["Rearrangement of long encrypted chain (QZK6… sequence).", "Serves as self-referential naming pivot."],
     tracklist: [
@@ -101,7 +101,7 @@ export const selections: SelectionEntry[] = [
   {
     slug: "define-saudade",
     title: "define saudade",
-    cover: "/og-image.jpg",
+    cover: "/kyora-3.jpg",
     summary: "Longing term pinned; melancholic anchor entry.",
     notes: ["Concept of irretrievable emotional memory.", "Used as semantic tag in archive ordering."],
     tracklist: [
@@ -185,7 +185,7 @@ export const selections: SelectionEntry[] = [
   {
     slug: "wq",
     title: ":wq",
-    cover: "/og-image.jpg",
+    cover: "/kyora-4.jpg",
     summary: "Write & quit vim metaphor for finalizing snapshot.",
     notes: ["Symbolic commit; indicates closure on a playlist iteration."],
     tracklist: [
@@ -201,7 +201,7 @@ export const selections: SelectionEntry[] = [
   {
     slug: "funeral-playlist",
     title: "funeral playlist",
-    cover: "/og-image.jpg",
+    cover: "/kyora-5.jpg",
     summary: "Mortality themed curation. Sparse publicly noted.",
     notes: ["Referenced in document; details withheld pending takedown risk."],
     tracklist: [
@@ -221,7 +221,7 @@ export const selections: SelectionEntry[] = [
   {
     slug: "music-empty-rooms",
     title: "music for empty rooms",
-    cover: "/og-image.jpg",
+    cover: "/kyora-6.jpg",
     summary: "Spatial ambience; low interaction expectation.",
     notes: ["Likely quiet, minimal instrumentation; placeholder entry."],
     tracklist: [
@@ -238,7 +238,7 @@ export const selections: SelectionEntry[] = [
   {
     slug: "stolen-moments",
     title: "stolen moments",
-    cover: "/og-image.jpg",
+    cover: "/kyora-7.jpg",
     summary: "Temporal capture; fleeting listening window.",
     notes: ["Title suggests opportunistic recording before removal."],
     tracklist: [

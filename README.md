@@ -2,7 +2,7 @@
 
 Personal music archive front-end. Cryptic, minimal, anti-algorithm. Built with Next.js 15, Tailwind CSS 4, and shadcn/ui.
 
-![Nanami screenshot](./public/og-image.jpg)
+![Nanami screenshot](./public/kyora-18.jpg)
 
 ## Structure
 

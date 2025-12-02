@@ -108,7 +108,7 @@ export const metadata: Metadata = {
     siteName: "Nanami",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/kyora-16.jpg",
         width: 1200,
         height: 630,
         alt: "Nanami - Modern Next.js Template",
@@ -120,7 +120,7 @@ export const metadata: Metadata = {
     title: "Nanami - Modern Next.js Template",
     description:
       "A modern Next.js template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
-    images: ["/og-image.jpg"],
+    images: ["/kyora-17.jpg"],
     creator: "@ausrobdev",
   },
 };

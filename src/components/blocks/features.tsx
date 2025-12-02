@@ -10,22 +10,22 @@ import { Card, CardContent } from "@/components/ui/card";
 const items = [
   {
     title: "Tracklists against inevitable takedown",
-    image: "/og-image.jpg",
+    image: "/kyora-12.jpg",
     rationale: "Snapshot before disappearance. Manual index over time.",
   },
   {
     title: "Notes in red, recs in green, links in blue",
-    image: "/og-image.jpg",
+    image: "/kyora-13.jpg",
     rationale: "Color legend omitted in UI; retained in source logic.",
   },
   {
     title: "Encrypted titles. Lost keys.",
-    image: "/og-image.jpg",
+    image: "/kyora-14.jpg",
     rationale: "AES-128 CBC naming. Keys intentionally discarded.",
   },
   {
     title: "Ambient / library pieces (clean)",
-    image: "/og-image.jpg",
+    image: "/kyora-15.jpg",
     rationale: "Low noise listening set. Minimal commentary.",
   },
 ];

@@ -11,8 +11,8 @@ const About = () => {
       <div className="flex flex-col gap-8 lg:gap-16 xl:gap-20">
         <ImageSection
           images={[
-            { src: "/og-image.jpg", alt: "Archive reference" },
-            { src: "/og-image.jpg", alt: "Archive reference" },
+            { src: "/kyora-8.jpg", alt: "Archive reference" },
+            { src: "/kyora-9.jpg", alt: "Archive reference" },
           ]}
           className="xl:-translate-x-10"
         />
@@ -37,8 +37,8 @@ const About = () => {
         />
         <ImageSection
           images={[
-            { src: "/og-image.jpg", alt: "Archive reference" },
-            { src: "/og-image.jpg", alt: "Archive reference" },
+            { src: "/kyora-10.jpg", alt: "Archive reference" },
+            { src: "/kyora-11.jpg", alt: "Archive reference" },
           ]}
           className="hidden lg:flex xl:translate-x-10"
         />
