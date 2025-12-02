@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 export function Selections({ className }: { className?: string }) {
   return (
-    <section className={cn("py-20 lg:py-28", className)}>
+    <section className={cn("pt-32 pb-20 lg:pt-40 lg:pb-28", className)}>
       <div className="container">
         <div className="space-y-4 text-center">
           <h2 className="text-2xl tracking-tight md:text-4xl">Selections</h2>

@@ -15,7 +15,6 @@ export const selections: SelectionEntry[] = [
     summary: "VGM + vintage film scores. Mixed tone.",
     notes: [
       "Idea: add VGM & vintage film scores over image (ironic or serious).",
-      "Clip reference: https://youtu.be/oG-8MFp3cjE?t=27",
     ],
     tracklist: [
       "00:00 The Roost - Animal Crossing: New Leaf (café bgm)",

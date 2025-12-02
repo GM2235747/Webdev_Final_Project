@@ -69,9 +69,9 @@ export const Navbar = () => {
         <div className="flex items-center gap-2.5">
           <ThemeToggle />
           <a
-            href="https://github.com/mbia1/nanami-archive"
+            href="https://github.com/GM2235747/Webdev_Final_Project"
             className="text-muted-foreground hover:text-foreground transition-colors"
-            aria-label="Nanami archive repository"
+            aria-label="Webdev Final Project repository"
           >
             <Github className="size-4" />
             <span className="sr-only">GitHub</span>
