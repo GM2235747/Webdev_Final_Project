@@ -69,3 +69,4 @@ vercel --prod
 - **Course**: BSIT
 - **Date**: November 2025
 - **Base Template**: [shadcnblocks Mainline](https://shadcnblocks.com) by Callum Flack, Yassine Zaanouni, Rob Austin
+- **Images**: Art by: kyora_san
